@@ -36,6 +36,47 @@ Links | alpha(i-1) | a(i-1) | d(i-1) | theta(i)
 5->6 | 0 | 0 | 0 | 0
 6->EE | 0 | 0 | 0 | 0
 
+T0_1:
+| cos(q1), -sin(q1), 0,     0 |
+| sin(q1),  cos(q1), 0,     0 |
+|       0,        0, 1, 0.750 |
+|       0,        0, 0,     1 |
+
+T1_2:
+| sin(q2), cos(q2), 0, 0.35 |
+|       0,       0, 1,    0 |
+| cos(q2),-sin(q2), 0,    1 |
+|       0,       0, 0,    1 |
+
+T2_3:
+| cos(q3), -sin(q3), 0, 1.25 |
+| sin(q3),  cos(q3), 0,    0 |
+|       0,        0, 1,    0 |
+|       0,        0, 0,    1 |
+
+T3_4:
+| cos(q4), -sin(q4), 0, -0.054 |
+|       0,        0, 1,  1.500 |
+|-sin(q4), -cos(q4), 0,      0 |
+|       0,        0, 0,      1 |
+
+T4_5:
+| cos(q5), -sin(q5),  0, 0 |
+|       0,        0, -1, 0 |
+| sin(q5),  cos(q5),  0, 0 |
+|       0,        0,  0, 1 |
+
+T5_6:
+| cos(q6), -sin(q6), 0,   0 |
+|       0,        0, 1,   0 |
+|-sin(q6), -cos(q6), 0,   0 |
+|       0,        0, 0,   1 |
+
+T6_EE:
+| 1, 0, 0,     0 |
+| 0, 1, 0,     0 |
+| 0, 0, 1, 0.303 |
+| 0, 0, 0,     1 |
 
 #### 3. Decouple Inverse Kinematics problem into Inverse Position Kinematics and inverse Orientation Kinematics; doing so derive the equations to calculate all individual joint angles.
 
