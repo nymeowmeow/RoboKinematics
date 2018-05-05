@@ -6,7 +6,7 @@
 [image2]: ./misc_images/misc3.png
 [image3]: ./misc_images/misc2.png
 [image4]: ./misc_images/kinematics.png
-[image5]: ./misc_images/kinematics2.jpg
+[image5]: ./misc_images/kinematics2.png
 [image6]: ./misc_images/wrist.png
 [image7]: ./misc_images/theta1.png
 [image8]: ./misc_images/inverse.png
